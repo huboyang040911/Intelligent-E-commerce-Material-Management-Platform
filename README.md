@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# Intelligent-E-commerce-Material-Management-Platform
+# Intelligent-E-commerce-Material-Management-Platform（产品内容生成器）
 这是一个基于 React + TypeScript + Vite 构建的产品内容生成器与素材管理平台，同时结合AI能力，用于快速生成商品的文案和图片。
-=======
-# 产品内容生成器
-
-这是一个基于 React + TypeScript + Vite 构建的产品内容生成器，用于快速生成商品的文案和图片。
 
 ## 技术栈
 
@@ -12,7 +7,7 @@
 - **开发语言**: TypeScript
 - **构建工具**: Vite
 - **UI 组件库**: Ant Design 6.2.3
-- **路由**: React Router 7.13.0
+- **路由**: React Router 8.13.0
 - **其他依赖**:
   - fabric (图像处理)
   - jszip (文件压缩)
@@ -28,38 +23,29 @@
    - 图片合成功能
 3. **Excel 批量处理**: 支持上传 Excel 文件批量生成产品内容
 4. **产品库管理**: 管理生成的产品内容库
-5. **多模态生成**: 结合文字和图像的生成能力
+5. **多模态生成**: 结合文字和图像的生成能力（AI 能力增强）
 6. **用户界面**: 包含多个功能页面（首页、生成页、图片生成页、库页面、设置页）
 
 ## 快速开始
 
 ### 安装依赖
 
-```bash
 npm install
-```
 
 ### 开发环境运行
 
-```bash
 npm run dev
-```
 
 ### 构建生产版本
 
-```bash
 npm run build
-```
 
 ### 预览生产版本
 
-```bash
 npm run preview
-```
 
 ## 目录结构
 
-```
 src/
 ├── components/      # 组件
 ├── pages/           # 页面
@@ -71,7 +57,6 @@ src/
 ├── App.tsx          # 应用入口
 └── main.tsx         # 渲染入口
 public/              # 公共静态资源
-```
 
 ## 环境配置
 
@@ -86,9 +71,7 @@ public/              # 公共静态资源
 2. **配置 API 密钥**
    - 复制 `.env.example` 文件并重命名为 `.env`
    - 在 `.env` 文件中添加您的 API 密钥：
-     ```
      VITE_SILICON_FLOW_API_KEY=YOUR-API-KEY
-     ```
 
 3. **确保 API 密钥安全**
    - `.env` 文件已添加到 `.gitignore` 文件中，确保它不会被提交到版本控制系统
@@ -129,4 +112,3 @@ public/              # 公共静态资源
 ## 许可证
 
 MIT License
->>>>>>> 19dd1c7 (Initial commit)
