@@ -1,0 +1,324 @@
+{
+  "productTasks": [
+    {
+      "taskId": "task_001",
+      "taskStatus": "completed",
+      "createTime": "2026-02-01T10:00:00Z",
+      "updateTime": "2026-02-01T10:30:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "宽松韩版卫衣",
+          "brand": "韩都衣舍",
+          "category": "女装"
+        },
+        "attributes": {
+          "material": "纯棉",
+          "color": "灰色/粉色/白色",
+          "size": "S/M/L/XL",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/sweater001/300/400",
+            "https://picsum.photos/seed/sweater002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "🔥绝绝子！这件韩版卫衣真的太好穿了！面料超级柔软舒适，宽松版型显瘦又百搭，不管是配牛仔裤还是半身裙都好看～亲测保暖性也不错，这个季节穿刚好！三种颜色都超级好看，我已经all in了！✨",
+        "images": [
+          "https://picsum.photos/seed/gensweater001/300/400",
+          "https://picsum.photos/seed/gensweater002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_002",
+      "taskStatus": "completed",
+      "createTime": "2026-02-01T11:15:00Z",
+      "updateTime": "2026-02-01T11:45:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "无线蓝牙耳机",
+          "brand": "小米",
+          "category": "数码"
+        },
+        "attributes": {
+          "material": "塑料/金属",
+          "color": "黑色/白色",
+          "size": "均码",
+          "targetAudience": "通用"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/earphone001/300/400",
+            "https://picsum.photos/seed/earphone002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "✨家人们！这款小米蓝牙耳机真的是性价比之王！音质超级清晰，低音效果绝了～续航也很给力，充一次电可以用一整天！最重要的是佩戴超级舒适，长时间戴也不会耳朵痛～亲测打游戏延迟几乎为零，绝绝子！🔥",
+        "images": [
+          "https://picsum.photos/seed/genearphone001/300/400",
+          "https://picsum.photos/seed/genearphone002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_003",
+      "taskStatus": "completed",
+      "createTime": "2026-02-01T14:20:00Z",
+      "updateTime": "2026-02-01T14:50:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "口红套装",
+          "brand": "完美日记",
+          "category": "美妆"
+        },
+        "attributes": {
+          "material": "化妆品原料",
+          "color": "多色",
+          "size": "标准",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/lipstick001/300/400",
+            "https://picsum.photos/seed/lipstick002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "🔥完美日记这个口红套装也太绝了吧！包装超级精美，送人自用都很合适～每支颜色都超级好看，显白不挑皮，质地滋润不拔干，持久度也不错！亲测吃饭喝水都不容易掉色，绝绝子！✨",
+        "images": [
+          "https://picsum.photos/seed/genlipstick001/300/400",
+          "https://picsum.photos/seed/genlipstick002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_004",
+      "taskStatus": "completed",
+      "createTime": "2026-02-02T09:00:00Z",
+      "updateTime": "2026-02-02T09:30:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "高腰牛仔裤",
+          "brand": "Levis",
+          "category": "女装"
+        },
+        "attributes": {
+          "material": "牛仔布",
+          "color": "蓝色/黑色",
+          "size": "25-32",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/jeans001/300/400",
+            "https://picsum.photos/seed/jeans002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "✨这条Levis高腰牛仔裤真的是腿精必备！高腰设计显腿长，显瘦效果绝了～面料柔软舒适，版型超级正，不管是搭配T恤还是卫衣都好看！亲测质量超级好，洗了好几次都没有变形，绝绝子！🔥",
+        "images": [
+          "https://picsum.photos/seed/genjeans001/300/400",
+          "https://picsum.photos/seed/genjeans002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_005",
+      "taskStatus": "completed",
+      "createTime": "2026-02-02T10:30:00Z",
+      "updateTime": "2026-02-02T11:00:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "智能手表",
+          "brand": "Apple",
+          "category": "数码"
+        },
+        "attributes": {
+          "material": "金属/玻璃",
+          "color": "银色/黑色",
+          "size": "41mm/45mm",
+          "targetAudience": "通用"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/watch001/300/400",
+            "https://picsum.photos/seed/watch002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "🔥Apple智能手表真的太香了！功能超级强大，可以测心率、血氧，还能接电话、听音乐～续航也很给力，充一次电可以用一整天！外观超级好看，不管是运动还是日常都很搭～亲测健身时用起来超级方便，绝绝子！✨",
+        "images": [
+          "https://picsum.photos/seed/genwatch001/300/400",
+          "https://picsum.photos/seed/genwatch002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_006",
+      "taskStatus": "completed",
+      "createTime": "2026-02-02T15:00:00Z",
+      "updateTime": "2026-02-02T15:30:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "粉底液",
+          "brand": "雅诗兰黛",
+          "category": "美妆"
+        },
+        "attributes": {
+          "material": "化妆品原料",
+          "color": "多色号",
+          "size": "30ml",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/foundation001/300/400",
+            "https://picsum.photos/seed/foundation002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "✨雅诗兰黛粉底液真的是底妆天花板！质地超级丝滑，上脸服帖自然，完全没有粉感～遮瑕效果也不错，小瑕疵都能盖住～持久度超级好，带妆一整天都不脱妆！亲测混油皮用起来也很舒服，绝绝子！🔥",
+        "images": [
+          "https://picsum.photos/seed/genfoundation001/300/400",
+          "https://picsum.photos/seed/genfoundation002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_007",
+      "taskStatus": "completed",
+      "createTime": "2026-02-03T09:15:00Z",
+      "updateTime": "2026-02-03T09:45:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "连衣裙",
+          "brand": "ZARA",
+          "category": "女装"
+        },
+        "attributes": {
+          "material": "纯棉",
+          "color": "白色/黑色",
+          "size": "XS/S/M/L",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/dress001/300/400",
+            "https://picsum.photos/seed/dress002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "🔥ZARA这条连衣裙也太好看了吧！版型超级显瘦，面料舒适透气，不管是约会还是通勤都很合适～白色清纯可爱，黑色优雅大气，两个颜色都超级百搭！亲测穿上回头率超高，绝绝子！✨",
+        "images": [
+          "https://picsum.photos/seed/gendress001/300/400",
+          "https://picsum.photos/seed/gendress002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_008",
+      "taskStatus": "completed",
+      "createTime": "2026-02-03T14:00:00Z",
+      "updateTime": "2026-02-03T14:30:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "平板电脑",
+          "brand": "华为",
+          "category": "数码"
+        },
+        "attributes": {
+          "material": "金属/玻璃",
+          "color": "灰色/蓝色",
+          "size": "10.8英寸",
+          "targetAudience": "通用"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/tablet001/300/400",
+            "https://picsum.photos/seed/tablet002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "✨华为平板电脑真的太香了！屏幕超级清晰，看剧玩游戏都很舒服～性能强劲，运行流畅不卡顿～续航超级给力，充一次电可以用一整天！最重要的是价格实惠，性价比超高！亲测办公学习都很方便，绝绝子！🔥",
+        "images": [
+          "https://picsum.photos/seed/gentablet001/300/400",
+          "https://picsum.photos/seed/gentablet002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_009",
+      "taskStatus": "completed",
+      "createTime": "2026-02-03T16:30:00Z",
+      "updateTime": "2026-02-03T17:00:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "眼影盘",
+          "brand": "橘朵",
+          "category": "美妆"
+        },
+        "attributes": {
+          "material": "化妆品原料",
+          "color": "多色",
+          "size": "标准",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/eyeshadow001/300/400",
+            "https://picsum.photos/seed/eyeshadow002/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "🔥橘朵这个眼影盘也太绝了吧！颜色超级丰富，日常妆、约会妆、派对妆都能画～粉质细腻软糯，不飞粉，显色度超级好～包装也超级可爱，少女心满满！亲测新手也能轻松驾驭，绝绝子！✨",
+        "images": [
+          "https://picsum.photos/seed/geneyeshadow001/300/400",
+          "https://picsum.photos/seed/geneyeshadow002/300/400"
+        ]
+      }
+    },
+    {
+      "taskId": "task_010",
+      "taskStatus": "completed",
+      "createTime": "2026-02-04T10:00:00Z",
+      "updateTime": "2026-02-04T10:30:00Z",
+      "productInfo": {
+        "basicInfo": {
+          "productName": "毛衣",
+          "brand": "优衣库",
+          "category": "女装"
+        },
+        "attributes": {
+          "material": "羊毛混纺",
+          "color": "米色/灰色/黑色",
+          "size": "S/M/L/XL",
+          "targetAudience": "女性"
+        },
+        "visualMaterials": {
+          "productImages": [
+            "https://picsum.photos/seed/sweater003/300/400",
+            "https://picsum.photos/seed/sweater004/300/400"
+          ]
+        }
+      },
+      "generatedContent": {
+        "copywriting": "✨优衣库毛衣真的是秋冬必备！面料超级柔软舒适，保暖性好又不厚重～版型宽松显瘦，不管是内搭还是外穿都好看～颜色超级温柔，随便搭都很高级！亲测机洗也不变形，质量超级好，绝绝子！🔥",
+        "images": [
+          "https://picsum.photos/seed/gensweater003/300/400",
+          "https://picsum.photos/seed/gensweater004/300/400"
+        ]
+      }
+    }
+  ]
+}

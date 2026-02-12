@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.ant-layout {
+  background: transparent !important;
+}
+
+.ant-layout-sider {
+  background: #ffffff !important;
+  border-radius: 0;
+  margin: 0;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.05);
+  border-right: 1px solid #f0f0f0;
+}
+
+.ant-layout-content {
+  background: transparent !important;
+}
+
+.ant-card {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
+  border: none !important;
+  overflow: hidden;
+}
+
+.ant-card-head {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-bottom: none !important;
+}
+
+.ant-card-head-title {
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+.ant-card-body {
+  padding: 24px !important;
+}
+
+.ant-btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-btn-primary:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5) !important;
+}
+
+.ant-tabs-nav {
+  margin-bottom: 24px !important;
+  border-bottom: 2px solid #f0f0f0 !important;
+}
+
+.ant-tabs-tab {
+  border-radius: 8px 8px 0 0 !important;
+  transition: all 0.3s ease !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 12px 24px !important;
+  margin: 0 4px !important;
+  font-weight: 600 !important;
+  color: #666 !important;
+}
+
+.ant-tabs-tab:hover {
+  color: #667eea !important;
+  background: rgba(102, 126, 234, 0.05) !important;
+}
+
+.ant-tabs-tab-active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3) !important;
+}
+
+.ant-tabs-tab-active:hover {
+  color: #fff !important;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.ant-tabs-ink-bar {
+  display: none !important;
+}
+
+.ant-input,
+.ant-select-selector {
+  border-radius: 8px !important;
+  border: 2px solid #e8e8e8 !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-input:focus,
+.ant-select-focused .ant-select-selector {
+  border-color: #667eea !important;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
+}
+
+.ant-upload-list-picture-card-container {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.ant-upload-select-picture-card {
+  border-radius: 12px !important;
+  border: 2px dashed #d9d9d9 !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-upload-select-picture-card:hover {
+  border-color: #667eea !important;
+}
+
+.ant-menu-horizontal {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+.ant-menu-item-selected {
+  background: transparent !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  position: relative !important;
+}
+
+.ant-menu-item-selected::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 20% !important;
+  right: 20% !important;
+  height: 3px !important;
+  background: linear-gradient(90deg, #fff 0%, rgba(255,255,255,0.8) 100%) !important;
+  border-radius: 2px !important;
+}
+
+.ant-menu-item {
+  border-radius: 0 !important;
+  transition: all 0.3s ease !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 600 !important;
+  padding: 0 24px !important;
+  margin: 0 8px !important;
+}
+
+.ant-menu-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #fff !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item::after {
+  display: none !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected::after {
+  display: block !important;
+  border: none !important;
+}
+
+.ant-progress-bg {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.ant-tag {
+  border-radius: 20px !important;
+  padding: 4px 12px !important;
+  font-weight: 500 !important;
+}
+
+.ant-modal-content {
+  border-radius: 16px !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2) !important;
+}
+
+.ant-modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  border-radius: 16px 16px 0 0 !important;
+}
+
+.ant-modal-title {
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+.ant-table {
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+
+.ant-table-thead > tr > th {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: rgba(102, 126, 234, 0.05) !important;
+}
+
+.ant-upload-select-picture-card {
+  border: 2px dashed #d9d9d9 !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+}
+
+.ant-upload-select-picture-card:hover {
+  border-color: #667eea !important;
+  background: rgba(102, 126, 234, 0.05) !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
